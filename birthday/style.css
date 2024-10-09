@@ -1,0 +1,54 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.birthday-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff66b3;
+}
+
+h1 {
+    color: #ff4081;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff66b3;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4081;
+}
+
+.hidden {
+    display: none;
+}
+
+#birthdayMessage {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #ff4081;
+    line-height: 1.5;
+    padding: 15px;
+    border-top: 2px solid #ff66b3;
+    background-color: #ffe6f2;
+    border-radius: 8px;
+}
